@@ -4,9 +4,10 @@ class Player:
         self.player_id = player_id
         self.first_name = first_name
         self.last_name = last_name
+        self.full_name = first_name + " " + last_name
 
     def __repr__(self):
-        return "{ " + self.player_id + ": " + self.first_name + " " + self.last_name + " }"
+        return str(self)
 
     def __str__(self):
-        return "{ " + self.player_id + ": " + self.first_name + " " + self.last_name + " }"
+        return "{ " + str(self.player_id) + ": " + self.full_name + " }"
