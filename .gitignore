@@ -1,0 +1,13 @@
+*~
+*.lock
+*.DS_Store
+*.out
+*.swp
+.gitkeep
+
+*.iml
+*.ipr
+*.iws
+.idea
+
+*/__pycache__/
