@@ -8,7 +8,7 @@ class Tournament:
         self.year = year
         self.leaderboard = tournament_leaderboard.TournamentLeaderBoard(tournament_id, year)
         self.scoring_rule = rule
-        self.points = dict({})
+        self.points = rule.points
 
     def __repr__(self):
         return str(self)

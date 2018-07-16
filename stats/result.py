@@ -5,7 +5,7 @@ from tournaments.tournament import Tournament
 
 
 def parse_players():
-    with open("input/players.json") as f:
+    with open("../pool/players.json") as f:
         data = json.load(f)
 
     players = dict({})
@@ -19,14 +19,15 @@ def parse_players():
 
 
 def parse_tournaments():
-    with open("input/tournaments.json") as f:
+    with open("../pool/2018-1/tournaments.json") as f:
         data = json.load(f)
 
     tournaments = []
     for t in data:
         try:
             tournament = Tournament(t['id'], t['name'], str(2018), scoring_rule.rule(t['type']))
-            scoring_rule.adjust_scoring(tournament)
+            if not t.get('skipAdjust', None):
+                scoring_rule.adjust_scoring(tournament)
             tournaments.append(tournament)
         except:
             print("unable to get info for: " + t['name'])
@@ -35,7 +36,7 @@ def parse_tournaments():
 
 
 def score_poolers(players):
-    with open("input/pool.json") as f:
+    with open("../pool/2018-1/pool.json") as f:
         data = json.load(f)
 
     for pooler in data:

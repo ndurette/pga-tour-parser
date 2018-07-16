@@ -12,36 +12,11 @@ class TournamentLeaderBoard:
         players = []
         if self.tournament_id == "470":
             for r in self.__request_leader_board__()['rounds']:
-                if r['roundNum'] == "4":
-                    for b in r['brackets']:
-                        for g in b['groups']:
-                            for p in g['players']:
-                                if p['matchWinner'] == "No":
-                                    players.append(LeaderBoardEntry("9", p['pid']))
-
-                elif r['roundNum'] == "5":
-                    for b in r['brackets']:
-                        for g in b['groups']:
-                            for p in g['players']:
-                                if p['matchWinner'] == "No":
-                                    players.append(LeaderBoardEntry("5", p['pid']))
-
-                elif r['roundNum'] == "7":
-                    for b in r['brackets']:
-                        if b['bracketNum'] == "2":
-                            for g in b['groups']:
-                                for p in g['players']:
-                                    if p['matchWinner'] == "No":
-                                        players.append(LeaderBoardEntry("4", p['pid']))
-                                    else:
-                                        players.append(LeaderBoardEntry("3", p['pid']))
-                        else:
-                            for g in b['groups']:
-                                for p in g['players']:
-                                    if p['matchWinner'] == "No":
-                                        players.append(LeaderBoardEntry("2", p['pid']))
-                                    else:
-                                        players.append(LeaderBoardEntry("1", p['pid']))
+                for b in r['brackets']:
+                    for g in b['groups']:
+                        for p in g['players']:
+                            if p['curPos']:
+                                players.append(LeaderBoardEntry(p['curPos'], p['pid']))
 
         else:
             for p in self.__request_leader_board__()['leaderboard']['players']:

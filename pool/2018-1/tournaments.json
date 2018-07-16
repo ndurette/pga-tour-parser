@@ -2,166 +2,200 @@
   {
     "id": "464",
     "name": "Safeway Open",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "494",
     "name": "CIMB classic",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "521",
     "name": "The CJ Cup",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "054",
     "name": "Sanderson Farms",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "489",
     "name": "WGC HSBC",
+    "year": "2018",
     "type": "medium"
   },
   {
     "id": "047",
     "name": "Shriners Hospitals For Children",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "457",
     "name": "OHL Classic",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "493",
     "name": "The RSM Classic",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "016",
     "name": "Sentry Tournament",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "006",
     "name": "Sony Open",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "002",
     "name": "Career Builder",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "004",
     "name": "Farmers Insurance Open",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "003",
     "name": "Waster Management Phoenix Open",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "005",
     "name": "Pebble Beach Pro am",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "007",
     "name": "Genesis Open",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "010",
     "name": "Honda Classic",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "473",
     "name": "WGC Mexico",
+    "year": "2018",
     "type": "medium"
   },
   {
     "id": "475",
     "name": "Valspar Championship",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "009",
     "name": "Arnold Palmer Invitational",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "470",
     "name": "WGC Dell match play",
-    "type": "dell"
+    "year": "2018",
+    "type": "dell",
+    "skipAdjust": true
   },
   {
     "id": "522",
     "name": "Punta Cana",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "020",
     "name": "Shell Open",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "014",
     "name": "Masters",
+    "year": "2018",
     "type": "major"
   },
   {
     "id": "012",
     "name": "RBC Heritage",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "041",
     "name": "Valero Texas Open",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "018",
     "name": "Zurich Classic",
+    "year": "2018",
     "type": "zurich"
   },
   {
     "id": "480",
     "name": "Wells Fargo Championship",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "011",
     "name": "The Players",
+    "year": "2018",
     "type": "medium"
   },
   {
     "id": "019",
     "name": "AT&T Byron Nelson",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "021",
     "name": "Fort Worth Invitational",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "023",
     "name": "The Memorial Tournament",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "025",
     "name": "St-Jude Classic",
+    "year": "2018",
     "type": "small"
   },
   {
     "id": "026",
     "name": "The US Open",
+    "year": "2018",
     "type": "major"
   }
 ]

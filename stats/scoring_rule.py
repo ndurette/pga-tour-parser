@@ -1,5 +1,4 @@
 import json
-from tournaments.tournament import Tournament
 
 
 def rule(type):
@@ -77,6 +76,7 @@ class MajorRule(ScoringRule):
         with open('rules/major.json') as f:
             self.points = json.load(f)
 
+
 class ZurichRule(ScoringRule):
 
     def __init__(self):
@@ -91,10 +91,3 @@ class DellRule(ScoringRule):
         super().__init__(1)
         with open('rules/dell.json') as f:
             self.points = json.load(f)
-
-
-if __name__ == '__main__':
-    tournament = Tournament(str(480), 'Patate', str(2018), SmallRule())
-    adjust_scoring(tournament)
-    print(tournament.points)
-    # print(find_player(None, "Jason Day"))

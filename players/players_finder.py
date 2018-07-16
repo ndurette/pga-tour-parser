@@ -26,8 +26,3 @@ def __request_players__():
     r = requests.get("https://statdata.pgatour.com/players/player.json")
     if r.status_code == requests.codes.ok:
         return r.json()
-
-
-if __name__ == '__main__':
-    print(find_player(28089, None))
-    # print(find_player(None, "Jason Day"))
