@@ -1,0 +1,167 @@
+[
+  {
+    "id": "464",
+    "name": "Safeway Open",
+    "type": "small"
+  },
+  {
+    "id": "494",
+    "name": "CIMB classic",
+    "type": "small"
+  },
+  {
+    "id": "521",
+    "name": "The CJ Cup",
+    "type": "small"
+  },
+  {
+    "id": "054",
+    "name": "Sanderson Farms",
+    "type": "small"
+  },
+  {
+    "id": "489",
+    "name": "WGC HSBC",
+    "type": "medium"
+  },
+  {
+    "id": "047",
+    "name": "Shriners Hospitals For Children",
+    "type": "small"
+  },
+  {
+    "id": "457",
+    "name": "OHL Classic",
+    "type": "small"
+  },
+  {
+    "id": "493",
+    "name": "The RSM Classic",
+    "type": "small"
+  },
+  {
+    "id": "016",
+    "name": "Sentry Tournament",
+    "type": "small"
+  },
+  {
+    "id": "006",
+    "name": "Sony Open",
+    "type": "small"
+  },
+  {
+    "id": "002",
+    "name": "Career Builder",
+    "type": "small"
+  },
+  {
+    "id": "004",
+    "name": "Farmers Insurance Open",
+    "type": "small"
+  },
+  {
+    "id": "003",
+    "name": "Waster Management Phoenix Open",
+    "type": "small"
+  },
+  {
+    "id": "005",
+    "name": "Pebble Beach Pro am",
+    "type": "small"
+  },
+  {
+    "id": "007",
+    "name": "Genesis Open",
+    "type": "small"
+  },
+  {
+    "id": "010",
+    "name": "Honda Classic",
+    "type": "small"
+  },
+  {
+    "id": "473",
+    "name": "WGC Mexico",
+    "type": "medium"
+  },
+  {
+    "id": "475",
+    "name": "Valspar Championship",
+    "type": "small"
+  },
+  {
+    "id": "009",
+    "name": "Arnold Palmer Invitational",
+    "type": "small"
+  },
+  {
+    "id": "470",
+    "name": "WGC Dell match play",
+    "type": "dell"
+  },
+  {
+    "id": "522",
+    "name": "Punta Cana",
+    "type": "small"
+  },
+  {
+    "id": "020",
+    "name": "Shell Open",
+    "type": "small"
+  },
+  {
+    "id": "014",
+    "name": "Masters",
+    "type": "major"
+  },
+  {
+    "id": "012",
+    "name": "RBC Heritage",
+    "type": "small"
+  },
+  {
+    "id": "041",
+    "name": "Valero Texas Open",
+    "type": "small"
+  },
+  {
+    "id": "018",
+    "name": "Zurich Classic",
+    "type": "zurich"
+  },
+  {
+    "id": "480",
+    "name": "Wells Fargo Championship",
+    "type": "small"
+  },
+  {
+    "id": "011",
+    "name": "The Players",
+    "type": "medium"
+  },
+  {
+    "id": "019",
+    "name": "AT&T Byron Nelson",
+    "type": "small"
+  },
+  {
+    "id": "021",
+    "name": "Fort Worth Invitational",
+    "type": "small"
+  },
+  {
+    "id": "023",
+    "name": "The Memorial Tournament",
+    "type": "small"
+  },
+  {
+    "id": "025",
+    "name": "St-Jude Classic",
+    "type": "small"
+  },
+  {
+    "id": "026",
+    "name": "The US Open",
+    "type": "major"
+  }
+]
