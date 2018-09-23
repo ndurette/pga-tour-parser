@@ -25,8 +25,10 @@ class TournamentLeaderBoard:
 
     def __request_leader_board__(self):
         if self.tournament_id == "470":
+            print("Loading leaderboard https://statdata.pgatour.com/r/" + self.tournament_id + "/" + self.year + "/leaderboard_mp.json")
             r = requests.get("https://statdata.pgatour.com/r/" + self.tournament_id + "/" + self.year + "/leaderboard_mp.json")
         else:
+            print("Loading leaderboard https://statdata.pgatour.com/r/" + self.tournament_id + "/" + self.year + "/leaderboard-v2.json")
             r = requests.get("https://statdata.pgatour.com/r/" + self.tournament_id + "/" + self.year + "/leaderboard-v2.json")
         if r.status_code == requests.codes.ok:
             return r.json()

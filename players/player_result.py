@@ -28,7 +28,3 @@ def request_results(player_id, year):
     r = requests.get("https://statdata.pgatour.com/players/" + str(player_id) + "/" + year + "results.json")
     if r.status_code == requests.codes.ok:
         return r.json()
-
-
-if __name__ == '__main__':
-    print(get_result(28089, str(2018)))
